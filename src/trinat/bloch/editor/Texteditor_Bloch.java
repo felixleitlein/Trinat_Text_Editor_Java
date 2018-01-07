@@ -37,13 +37,17 @@ public class Texteditor_Bloch {
 		JMenuBar menuBar = new JMenuBar();
 
 		JMenu fileMenu = new JMenu("Datei");
+		
+		JMenuItem saveItem = new JMenuItem("Speichern");
 
 		JMenuItem openItem = new JMenuItem("Oeffnen");
 
 		JMenuItem saveItem = new JMenuItem("Speichern");
 
 		JMenuItem exitItem = new JMenuItem("Exit");
-
+		
+		
+		fileMenu.add(newItem);
 		fileMenu.add(openItem);
 		fileMenu.add(saveItem);
 
