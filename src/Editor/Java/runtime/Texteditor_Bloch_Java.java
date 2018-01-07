@@ -6,7 +6,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 import javax.swing.SwingUtilities;
 
-public class Texteditor_Bloch_0$2 {
+public class Texteditor_Bloch_0$3 {
+
 	private JFrame rahmen;
 	private JTextPane editor;
 	
@@ -17,7 +18,7 @@ public class Texteditor_Bloch_0$2 {
 
 			public void run() {
 
-				new Texteditor_Bloch_0$2().createAndShowGUI();
+				new Texteditor_Bloch_0$3().createAndShowGUI();
 			}
 		});
 	}
@@ -33,6 +34,7 @@ public class Texteditor_Bloch_0$2 {
 		
 		rahmen.setSize(900, 600);
 		rahmen.setLocation(80, 80);
+		rahmen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		rahmen.setVisible(true);
 
 		editor.requestFocusInWindow();
