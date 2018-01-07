@@ -42,7 +42,7 @@ public class Texteditor_Bloch {
 
 		JMenuItem openItem = new JMenuItem("Oeffnen");
 
-		JMenuItem saveItem = new JMenuItem("Speichern");
+		JMenuItem newItem= new JMenuItem("Neu");
 
 		JMenuItem exitItem = new JMenuItem("Exit");
 		
