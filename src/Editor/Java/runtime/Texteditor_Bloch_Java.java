@@ -2,12 +2,15 @@ runtime;
 
 import java.awt.BorderLayout;
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 import javax.swing.SwingUtilities;
 
-public class Texteditor_Bloch_0$3 {
-
+public class Texteditor_Bloch_0$4 {
+	
 	private JFrame rahmen;
 	private JTextPane editor;
 	
@@ -18,7 +21,7 @@ public class Texteditor_Bloch_0$3 {
 
 			public void run() {
 
-				new Texteditor_Bloch_0$3().createAndShowGUI();
+				new Texteditor_Bloch_0$4().createAndShowGUI();
 			}
 		});
 	}
@@ -32,6 +35,27 @@ public class Texteditor_Bloch_0$3 {
 
 		rahmen.add(editorScrollPane, BorderLayout.CENTER);
 		
+		JMenuBar menuBar = new JMenuBar();
+		
+		JMenu fileMenu = new JMenu("Datei");
+		
+		
+		
+		JMenuItem openItem = new JMenuItem("Oeffnen");
+		
+		JMenuItem saveItem = new JMenuItem("Speichern");
+		
+		JMenuItem exitItem = new JMenuItem("Exit");
+		
+		
+		
+		fileMenu.add(openItem);
+		fileMenu.add(saveItem);
+		
+		fileMenu.add(exitItem);
+		menuBar.add(fileMenu);
+		rahmen.setJMenuBar(menuBar);
+		
 		rahmen.setSize(900, 600);
 		rahmen.setLocation(80, 80);
 		rahmen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -39,6 +63,5 @@ public class Texteditor_Bloch_0$3 {
 
 		editor.requestFocusInWindow();
 
-		
 	}
 }
