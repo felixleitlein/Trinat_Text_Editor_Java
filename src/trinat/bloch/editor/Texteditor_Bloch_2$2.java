@@ -3,6 +3,7 @@ package trinat.bloch.editor;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -25,7 +26,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.StyledDocument;
 
-public class Texteditor_Bloch_2$1 {
+public class Texteditor_Bloch_2$2 {
 	private JFrame rahmen;
 	private JTextPane editor;
 	private File datei;
@@ -38,7 +39,7 @@ public class Texteditor_Bloch_2$1 {
 
 			public void run() {
 
-				new Texteditor_Bloch_2$1().createAndShowGUI();
+				new Texteditor_Bloch_2$2().createAndShowGUI();
 			}
 		});
 	}
@@ -56,6 +57,7 @@ public class Texteditor_Bloch_2$1 {
 
 		JMenuBar menuBar = new JMenuBar();
 		JMenu fileMenu = new JMenu("Datei");
+		fileMenu.setMnemonic(KeyEvent.VK_D);
 		
 		JMenuItem newItem = new JMenuItem("Neu");
 		newItem.addActionListener(new NewFileListener());
@@ -208,3 +210,4 @@ public class Texteditor_Bloch_2$1 {
 
 	}
 }
+
