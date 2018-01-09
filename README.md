@@ -44,6 +44,25 @@ Es soll eine kleines Programm erstellt werden mit welchem eine einfache Textvera
 * Korrekte Installation von Maven.
 * Korrekte Installation von Git.
 
+Build Anleitung für alle Betriebssysteme
+•	Datei von GitHub Trinat-Bloch-Texteditor-Master herunterladen.
+•	Im gewünschten Ordner entpacken.
+•	Den Pfad der gewünschten Versionsdatei (.jar) kopieren.
+•	Die Eingabeaufforderung (Konsole) öffnen.
+•	java -jar in die Eingabeaufforderung eingeben gefolgt von dem kopiertem Pfad der .jar Datei. Mit Enter bestätigen.
+
+Beispiel:
+java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.jar
+
+Besonders für Windows Betriebssystem - Erstellen eines Desktop Icons zum Starten des Programms durch Doppelklick.
+•	Den Pfad der gewünschten Versionsdatei (.jar) kopieren.
+•	Auf dem Desktop mit Rechtsklick eine neue Verknüpfung erstellen.
+•	Den Pfad zuvor kopierten Pfad dort eingeben.
+•	Die Verknüpfung benennen mit OK bestätigen.
+•	Die Eigenschaften der Verknüpfung aufrufen dort im Reiter "Verknüpfung" "Anderes Symbol..." auswählen dort Symbol auswählen und mit OK bestätigen
+•	Im Reiter "Allgemein" die Option "öffnen mit" ändern auf "Java(TM) Plattform..." und mit ok bestätigen.
+
+
 
 ## Kurze Bedienungsanleitung 
 
