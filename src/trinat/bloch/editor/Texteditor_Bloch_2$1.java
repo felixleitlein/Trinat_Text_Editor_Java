@@ -25,12 +25,12 @@ import javax.swing.SwingUtilities;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.StyledDocument;
 
-public class Texteditor_Bloch_1$3 {
+public class Texteditor_Bloch_2$1 {
 	private JFrame rahmen;
 	private JTextPane editor;
 	private File datei;
 
-	private static final String TITLE_Bar = "Texteditor test - ";
+	private static final String TITLE_Bar = "Texteditor Bloch - ";
 
 	public static void main(String[] args) throws Exception {
 
@@ -38,7 +38,7 @@ public class Texteditor_Bloch_1$3 {
 
 			public void run() {
 
-				new Texteditor_Bloch_1$3().createAndShowGUI();
+				new Texteditor_Bloch_2$1().createAndShowGUI();
 			}
 		});
 	}
@@ -50,13 +50,17 @@ public class Texteditor_Bloch_1$3 {
 		editor = new JTextPane();
 
 		JScrollPane editorScrollPane = new JScrollPane(editor);
-
+		editor.setDocument(getNewDocument());
+		
 		rahmen.add(editorScrollPane, BorderLayout.CENTER);
 
 		JMenuBar menuBar = new JMenuBar();
-
 		JMenu fileMenu = new JMenu("Datei");
-
+		
+		JMenuItem newItem = new JMenuItem("Neu");
+		newItem.addActionListener(new NewFileListener());
+		fileMenu.add(newItem);
+		
 		JMenuItem openItem = new JMenuItem("Oeffnen");
 		openItem.addActionListener(new OpenFileListener());
 
@@ -65,17 +69,15 @@ public class Texteditor_Bloch_1$3 {
 
 		JMenuItem exitItem = new JMenuItem("Exit");
 
+		
+
 		fileMenu.add(openItem);
 		fileMenu.add(saveItem);
-		
-		// Nicht vergessen einzufügen!
-		JMenuItem newItem= new JMenuItem("Neu");
-		fileMenu.add(newItem);
 
 		fileMenu.add(exitItem);
 		menuBar.add(fileMenu);
+		
 		rahmen.setJMenuBar(menuBar);
-
 		rahmen.setSize(900, 600);
 		rahmen.setLocation(80, 80);
 		rahmen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -89,11 +91,30 @@ public class Texteditor_Bloch_1$3 {
 
 		rahmen.setTitle(TITLE_Bar + titleExtn);
 	}
+	
+	private StyledDocument getNewDocument() {
 
+		StyledDocument doc = new DefaultStyledDocument();
+		return doc;
+	}
+	
 	private StyledDocument getEditorDocument() {
 
 		StyledDocument doc = (DefaultStyledDocument) editor.getDocument();
 		return doc;
+	}
+	
+	private class NewFileListener implements ActionListener {
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+
+			
+			editor.setDocument(getNewDocument());
+			datei = null;
+			setFrameTitleWithExtn("Neu");
+		}
+
 	}
 
 	private class SaveFileListener implements ActionListener {
@@ -182,8 +203,7 @@ public class Texteditor_Bloch_1$3 {
 			}
 
 			editor.setDocument(doc);
-			// doc.addUndoableEditListener(new UndoEditListener());
-			// applyFocusListenerToPictures(doc);
+			
 		}
 
 	}
