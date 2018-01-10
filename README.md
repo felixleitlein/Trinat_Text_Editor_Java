@@ -267,8 +267,16 @@ public class Sprint {
 ### Dokumentation wichtiger Code Snippets
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
 
-## Optional: Dokumentation Sprint 3 
+## Dokumentation Sprint 3 
 ### Taskliste für die Umsetzung der User Story
+| User Story 1 |                                                               | Aufwandschätzung |
+|--------------|---------------------------------------------------------------|------------------|
+| Task 1       | Erstellen newItem                                             | 5 min            |
+| Task 2       | actionListener erstellen                                      | 5 min            |
+| Task 3       |  In Classe newFileListener actiionPerformed Methode erstellen | 7 min            |
+| Task 4       | Getter für NewStyleDocument erstllen                          | 5 min            |
+|              |                                                         Summe | 0,3 st           |
+
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
