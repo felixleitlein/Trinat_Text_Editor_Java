@@ -80,13 +80,15 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icons zum Starte
 
 | User Story 3 	| Priorisierung 	| Story Point 	| Aktzeptanzkriterium 	|
 |----------------------------------------------------------------------------	|:-------------:	|------------:	|-------------------------------------------------------	|
-|  	| HOCH 	| 3	|  	|
-| Der Benutzer möchte das Programm durch klicken mit der Maus schließen können	|  	|  	| Nach dem Klicken auf den richtigen Butten wird das Programm geschloßen 	|
+|  	| HOCH 	| 3 	|  	|
+| Der Benutzer möchte über einen Reiter, mit der Maus die Buttons für Schließen, Speichern, Laden angezeigt bekommen 	|  	|  Nach dem Klicken auf den entsprechenden Reiter werden die Buttons Schließen, Speichern und Laden angezeigt	| 	|
+
 
 | User Story 4 	| Priorisierung 	| Story Point 	| Aktzeptanzkriterium 	|
 |----------------------------------------------------------------------------	|:-------------:	|------------:	|-------------------------------------------------------	|
-|  	| HOCH 	| 3 	|  	|
-| Der Benutzer möchte über einen Reiter, mit der Maus die Buttons für Schließen, Speichern, Laden angezeigt bekommen 	|  	|  Nach dem Klicken auf den entsprechenden Reiter werden die Buttons Schließen, Speichern und Laden angezeigt	| 	|
+|  	| HOCH 	| 3	|  	|
+| Der Benutzer möchte das Programm durch klicken mit der Maus schließen können	|  	|  	| Nach dem Klicken auf den richtigen Butten wird das Programm geschloßen 	|
+
 
 
 ### Ausbaustufe 2
@@ -140,6 +142,22 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icons zum Starte
 
 ## Dokumentation Sprint 1
 ### Taskliste für die Umsetzung der User Story
+#### Ausbaustuffe 1
+| User Story 1 |                             | Aufwandschätzung | 
+|--------------|-----------------------------|------------------|
+| Task 1       | Erstellen einer Classe      | 2 min            |
+| Task 2       | Erstellen New Jframe        | 5 min            |
+| Task 3       | Erstellen Main Methode      | 2 min            |
+| Task 4       | Create and show GUI mehtode | 10 min           |
+|              | Summe                       | 0,31 St          |
+
+| User Story 2 |                              | Aufwandschätzung |
+|--------------|------------------------------|------------------|
+| Task 1       | JTextPan erstellen           | 10 min           |
+| Task 2       | In creatAndShowGui einbinden | 5 min            |
+| Task 3       | In Jframe einbinden          | 3 min            |
+|              | Summe                        | 0,3 st           |
+
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
