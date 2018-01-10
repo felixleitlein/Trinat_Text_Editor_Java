@@ -231,6 +231,29 @@ public class Sprint {
 
 ## Dokumentation Sprint 2 
 ### Taskliste für die Umsetzung der User Story
+
+| User Story 1 |                                                               | Aufwandschätzung |
+|--------------|---------------------------------------------------------------|------------------|
+| Task 1       | Variablen deklaration in der File Classe                      | 5 min            |
+| Task 2       | Im ActionListener ActionPerfomred Methode erstellen           | 5 min            |
+| Task 3       | Action performed in SafeFileListerner erstellen               | 7 min            |
+| Task 4       | DefaultStylDocument in ActionPerformed Methode erstellen      | 5 min            |
+| Task 5       | StyleDocument getter erstellen                                | 5 min            |
+| Task 6       | Trycatch mit fileoutputstream in ActionPerformed erstellen    | 5 min            |
+| Task 7       | Erstellen neuer Methode chooseFile in Methode safeFilListener | 10 min           |
+| Task 8       | Implementierung JFileChooser in Methode chooseFile            | 15 min           |
+|              |                                                         Summe | 0,3 st           |
+
+| User Story 2 |                                                           | Aufwandschätzung |
+|--------------|-----------------------------------------------------------|------------------|
+| Task 1       | Classe openFileListener erstllen                          | 5 min            |
+| Task 2       | Im ActionListener ActionPerfomred Methode erstellen       | 5 min            |
+| Task 3       | Action performed in openFileListerner erstellen           | 7 min            |
+| Task 4       | DefaultStylDocument in ActionPerformed Methode erstellen  | 5 min            |
+| Task 6       | Trycatch mit fileinputstream in ActionPerformed erstellen | 5 min            |
+| Task 7       | Erstellen neuer Methode chooseFile im openFileListener    | 10 min           |
+| Task 8       | Implementierung JFileChooser in Methode chooseFile        | 15 min           |
+|              |                                                     Summe | 0,3 st           |
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
