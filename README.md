@@ -142,7 +142,6 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icons zum Starte
 
 ## Dokumentation Sprint 1
 ### Taskliste für die Umsetzung der User Story
-#### Ausbaustuffe 1
 | User Story 1 |                             | Aufwandschätzung | 
 |--------------|-----------------------------|------------------|
 | Task 1       | Erstellen einer Classe      | 5 min            |
@@ -165,6 +164,12 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icons zum Starte
 | Task 3       | JMenuItems einbinden in JMenuBar                    | 5 min            |
 | Task 4       | JMenuBar hinzufügen zu JFrame                       | 5 min            |
 |              |                                                Summe| 0,3 st           |
+
+| User Story 4 |                                                     | Aufwandschätzung |
+|--------------|-----------------------------------------------------|------------------|
+| Task 1       | addActionListener erstellen                         | 7 min            |
+| Task 2       | Im ActionListener ActionPerfomred Methode erstellen | 5 min            |
+|              |                                               Summe | 0,3 st           |
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
