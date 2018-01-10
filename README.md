@@ -277,6 +277,11 @@ public class Sprint {
 | Task 4       | Getter für NewStyleDocument erstllen                          | 5 min            |
 |              |                                                         Summe | 0,3 st           |
 
+| User Story 2 |                                                            | Aufwandschätzung |
+|--------------|------------------------------------------------------------|------------------|
+| Task 1       | Einstellen der readFile Methode in Classe openFileListener | 10 min           |
+| Task 2       | In readFile erstellen eines Try catch                      | 5 min            |
+|              |                                                      Summe | 0,3 st           |
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
