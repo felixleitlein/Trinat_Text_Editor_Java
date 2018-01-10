@@ -145,19 +145,26 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icons zum Starte
 #### Ausbaustuffe 1
 | User Story 1 |                             | Aufwandschätzung | 
 |--------------|-----------------------------|------------------|
-| Task 1       | Erstellen einer Classe      | 2 min            |
+| Task 1       | Erstellen einer Classe      | 5 min            |
 | Task 2       | Erstellen New Jframe        | 5 min            |
-| Task 3       | Erstellen Main Methode      | 2 min            |
+| Task 3       | Erstellen Main Methode      | 5 min            |
 | Task 4       | Create and show GUI mehtode | 10 min           |
-|              | Summe                       | 0,31 St          |
+|              |                        Summe| 0,31 St          |
 
 | User Story 2 |                              | Aufwandschätzung |
 |--------------|------------------------------|------------------|
 | Task 1       | JTextPan erstellen           | 10 min           |
 | Task 2       | In creatAndShowGui einbinden | 5 min            |
-| Task 3       | In Jframe einbinden          | 3 min            |
-|              | Summe                        | 0,3 st           |
+| Task 3       | In Jframe einbinden          | 5 min            |
+|              |                         Summe| 0,3 st           |
 
+| User Story 3 |                                                     | Aufwandschätzung |
+|--------------|-----------------------------------------------------|------------------|
+| Task 1       | In createAndShowGui erstellen von neuen JMenu Items | 10 min           |
+| Task 2       | JMenuBar erstellen                                  | 5 min            |
+| Task 3       | JMenuItems einbinden in JMenuBar                    | 5 min            |
+| Task 4       | JMenuBar hinzufügen zu JFrame                       | 5 min            |
+|              |                                                Summe| 0,3 st           |
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
