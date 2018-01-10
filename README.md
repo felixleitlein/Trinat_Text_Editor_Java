@@ -254,6 +254,14 @@ public class Sprint {
 | Task 7       | Erstellen neuer Methode chooseFile im openFileListener    | 10 min           |
 | Task 8       | Implementierung JFileChooser in Methode chooseFile        | 15 min           |
 |              |                                                     Summe | 0,3 st           |
+
+| User Story 3 |                                              | Aufwandschätzung |
+|--------------|----------------------------------------------|------------------|
+| Task 1       | Deklaration String Name                      | 5 min            |
+| Task 2       | setFrameTitle Methode erstellen              | 5 min            |
+| Task 3       | setFrameStitle in createAndShowGui auffrufen | 5 min            |
+| Task 5       | Title_Bar zu JFrame hinzufügen               | 5 min            |
+|              |                                        Summe | 0,3 st           |
 ### Anreicherung der User Stories für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
