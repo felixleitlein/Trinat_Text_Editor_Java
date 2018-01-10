@@ -4,29 +4,31 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
 
-import javax.swing.JFileChooser;
+import java.io.File;
+import java.io.InputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.OutputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.IOException;
+import java.io.FileNotFoundException;
+
 import javax.swing.JFrame;
+import javax.swing.JTextPane;
+import javax.swing.JScrollPane;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
-import javax.swing.JTextPane;
 import javax.swing.SwingUtilities;
-import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.StyledDocument;
+import javax.swing.text.DefaultStyledDocument;
 
-public class Texteditor_Bloch_2$2 {
+public class Texteditor_Bloch_2$3 {
+	
 	private JFrame rahmen;
 	private JTextPane editor;
 	private File datei;
@@ -39,7 +41,7 @@ public class Texteditor_Bloch_2$2 {
 
 			public void run() {
 
-				new Texteditor_Bloch_2$2().createAndShowGUI();
+				new Texteditor_Bloch_2$3().createAndShowGUI();
 			}
 		});
 	}
@@ -61,22 +63,29 @@ public class Texteditor_Bloch_2$2 {
 		
 		JMenuItem newItem = new JMenuItem("Neu");
 		newItem.addActionListener(new NewFileListener());
-		fileMenu.add(newItem);
+		newItem.setMnemonic(KeyEvent.VK_N);
 		
 		JMenuItem openItem = new JMenuItem("Oeffnen");
 		openItem.addActionListener(new OpenFileListener());
+		openItem.setMnemonic(KeyEvent.VK_O);
 
 		JMenuItem saveItem = new JMenuItem("Speichern");
 		saveItem.addActionListener(new SaveFileListener());
-
-		JMenuItem exitItem = new JMenuItem("Exit");
-
+		saveItem.setMnemonic(KeyEvent.VK_S);
 		
-
+		JMenuItem exitItem = new JMenuItem("Exit");
+		exitItem.setMnemonic(KeyEvent.VK_X);
+		exitItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+			}
+		});
+		
+		fileMenu.add(newItem);
 		fileMenu.add(openItem);
 		fileMenu.add(saveItem);
-
 		fileMenu.add(exitItem);
+		
 		menuBar.add(fileMenu);
 		
 		rahmen.setJMenuBar(menuBar);
