@@ -17,17 +17,17 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	* [Ausbaustufe 3](#ausbaustufe-3)
 - [Releaseplan mit den Ausbaustufen](#releaseplan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
-  * [Taskliste für die Umsetzung der User Story US1](#taskliste-für-die-umsetzung-der-user-story-us1)
-  * [Anreicherung der User Story für die Umsetzung US1](#anreicherung-der-user-story-für-die-umsetzung-us1)
-  * [UML Package / Klassen und Sequenzdiagramm US1](#uml-package-/-klassen-und-sequenzdiagramm-us1)
-  * [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
-  * [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-der-user-stories)
+  	* [Taskliste für die Umsetzung der User Story US1](#taskliste-für-die-umsetzung-der-user-story-us1)
+  	* [Anreicherung der User Story für die Umsetzung US1](#anreicherung-der-user-story-für-die-umsetzung-us1)
+  	* [UML Package und Klassen und Sequenzdiagramm US1](#uml-package-und-klassen-und-sequenzdiagramm-us1)
+  	* [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-		der-user-stories)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
-  * [Taskliste für die Umsetzung der User Story](#tasklistetfür-die-Umsetzun-der-User-Story)
-  * [Anreicherung der User Story's für die Umsetzung](#anreicherung-der-user-stories-für-die-umsetzung)
-  * [UML Package, Klassen und Sequenzdiagramm](#uml-package,-klassen-und-sequenzdiagramm)
-  * [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
-  * [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-der-user-stories)
+  	* [Taskliste für die Umsetzung der User Story](#tasklistetfür-die-Umsetzun-der-User-Story)
+  	* [Anreicherung der User Story's für die Umsetzung](#anreicherung-der-user-stories-für-die-umsetzung)
+  	* [UML Package, Klassen und Sequenzdiagramm](#uml-package,-klassen-und-sequenzdiagramm)
+  	* [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-		der-user-stories)
 ## Einleitung
 
 Hierbei handelt es sich um eine Gruppenarbeit, welche im Rahmen der Kurse Programmieren II – JAVA und Software Engineering unseres Studiengangs Mechatronik Trinational, im dritten Semester anzufertigen war.
@@ -38,7 +38,6 @@ Zweck dieses Projekts ist es, die erlernten Programmierkenntnisse und Prinzipien
 Es soll eine einfaches Programm erstellt werden, mit welchem eine einfache Textverarbeitung möglich ist. Das Programm soll auf dem Desktop eines MAC, Windows oder Linux Computer ausgeführt werden können. 
 ### Randbedingungen
  * Die Programmierung der Anwendung soll in JAVA erfolgen.
- * Die Klassen des Programms sollen über die entsprechenden Unit-Tests verfügen.
  * Das Projekt soll auf GitHub veröffentlich werden.
  * Die Buildautomatisierung soll mit MAVEN erfolgen.
  * Das Programm soll mittels einer dafür erstellten JAR-Datei und dem Befehl java-jar xxxxx.jar ausgeführt werden können.
@@ -184,7 +183,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 2       | Im ActionListener ActionPerfomred Methode erstellen | 5 min            |
 |              |                                               Summe | 0,2 h            |
 ### Anreicherung der User Story für die Umsetzung US1
-### UML Package / Klassen und Sequenzdiagramm US1
+### UML Package und Klassen und Sequenzdiagramm US1
 ### Dokumentation wichtiger Code Snippets US1
 
 
