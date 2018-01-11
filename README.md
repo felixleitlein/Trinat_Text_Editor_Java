@@ -16,7 +16,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	* [Texteditor starten](#texteditor-starten)
 	* [Texteditor schliessen](#texteditor-schliessen)
 	* [Textdatei speichern](#textdatei-speichern)
-	* [Textdatei laden](#textdatei laden)
+	* [Textdatei laden](#textdatei-laden)
 	* [Textdatei löschen](#textdatei-löschen)
 	* [Hot-Keys](#hot-keys)
 - [User Stories](#user-stories)
