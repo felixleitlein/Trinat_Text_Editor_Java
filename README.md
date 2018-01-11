@@ -11,26 +11,26 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	* [Vorausetzungen](#vorausetzungen)
 	* [Build](#build)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
-- [User Story's](#user-stories)
+- [User Stories](#user-stories)
 	* [Ausbaustufe 1](#ausbaustufe-1)
 	* [Ausbaustufe 2](#ausbaustufe-2)
 	* [Ausbaustufe 3](#ausbaustufe-3)
 - [Releaseplan mit den Ausbaustufen](#releaseplan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
-  	* [Taskliste für die Umsetzung der User Story US1](#taskliste-für-die-umsetzung-der-user-story-us1)
-  	* [Anreicherung der User Story für die Umsetzung US1](#anreicherung-der-user-story-für-die-umsetzung-us1)
+  	* [Taskliste für die Umsetzung der User Stories US1](#taskliste-für-die-umsetzung-der-user-stories-us1)
+  	* [Anreicherung der User Stories für die Umsetzung US1](#anreicherung-der-user-stories-für-die-umsetzung-us1)
   	* [UML Package und Klassen und Sequenzdiagramm US1](#uml-package-und-klassen-und-sequenzdiagramm-us1)
   	* [Dokumentation wichtiger Code Snippets US1](#dokumentation-wichtiger-code-snippets-us1)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US1](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us1)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
-  	* [Taskliste für die Umsetzung der User Story US2](#taskliste-für-die-umsetzung-der-user-story-us2)
-  	* [Anreicherung der User Story für die Umsetzung US2](#anreicherung-der-user-story-für-die-umsetzung-us2)
+  	* [Taskliste für die Umsetzung der User Stories US2](#taskliste-für-die-umsetzung-der-user-stories-us2)
+  	* [Anreicherung der User Stories für die Umsetzung US2](#anreicherung-der-user-stories-für-die-umsetzung-us2)
   	* [UML Package und Klassen und Sequenzdiagramm US2](#uml-package-und-klassen-und-sequenzdiagramm-us2)
   	* [Dokumentation wichtiger Code Snippets US2](#dokumentation-wichtiger-code-snippets-us2)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US2](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us2)
 - [Dokumentation Sprint 3](#dokumentation-sprint-3)
-  	* [Taskliste für die Umsetzung der User Story US3](#taskliste-für-die-umsetzung-der-user-story-us3)
-  	* [Anreicherung der User Story für die Umsetzung US3](#anreicherung-der-user-story-für-die-umsetzung-us3)
+  	* [Taskliste für die Umsetzung der User Stories US3](#taskliste-für-die-umsetzung-der-user-stories-us3)
+  	* [Anreicherung der User Stories für die Umsetzung US3](#anreicherung-der-user-stories-für-die-umsetzung-us3)
   	* [UML Package und Klassen und Sequenzdiagramm US3](#uml-package-und-klassen-und-sequenzdiagramm-us3)
   	* [Dokumentation wichtiger Code Snippets US3](#dokumentation-wichtiger-code-snippets-us3)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US3](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us3)
@@ -161,7 +161,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 ## Releaseplan mit den Ausbaustufen
 
 ## Dokumentation Sprint 1
-### Taskliste für die Umsetzung der User Story US1
+### Taskliste für die Umsetzung der User Stories US1
 | User Story 1 |                             | Aufwandschätzung | 
 |--------------|-----------------------------|------------------|
 | Task 1       | Erstellen einer Klasse      | 5  min           |
@@ -190,7 +190,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 1       | addActionListener erstellen                         | 7 min            |
 | Task 2       | Im ActionListener ActionPerfomred Methode erstellen | 5 min            |
 |              |                                               Summe | 0,2 h            |
-### Anreicherung der User Story für die Umsetzung US1
+### Anreicherung der User Stories für die Umsetzung US1
 ### UML Package und Klassen und Sequenzdiagramm US1
 ### Dokumentation wichtiger Code Snippets US1
 
@@ -230,13 +230,13 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 3       | setFrameStitle in createAndShowGui auffrufen | 5  min           |
 | Task 5       | Title_Bar zu JFrame hinzufügen               | 5  min           |
 |              |                                        Summe | 0,33 h           |
-### Anreicherung der User Story für die Umsetzung US2
+### Anreicherung der User Stories für die Umsetzung US2
 ### UML Package und Klassen und Sequenzdiagramm US2
 ### Dokumentation wichtiger Code Snippets US2
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US2
 
 ## Dokumentation Sprint 3 
-### Taskliste für die Umsetzung der User Story US3
+### Taskliste für die Umsetzung der User Stories US3
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
 | Task 1       | Erstellen newItem                                             | 5  min           |
