@@ -5,9 +5,15 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 
 ## Inhaltsverzeichnis
 - [Einleitung](#einleitung)
+  * [Ziele](#ziele)
+  * [Randbedingungen](#randbedingungen)
 - [Build-Anleitung](#build-anleitung)
+  * [Vorrausetzungen](#vorraussetzungen)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
 - [User Stories](#user-stories)
+  * [Ausbaustufe 1](#ausbaustufe-1)
+  * [Ausbaustufe 2](#ausbaustufe-2)
+  * [Ausbaustufe 3](#ausbaustufe-3)
 - [Release plan mit den Ausbaustufen](#release-plan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
   * [Taskliste für die Umsetzung der User Story](#tasklistet-für-die-umsetzun-der-user-story)
