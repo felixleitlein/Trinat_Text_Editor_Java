@@ -45,7 +45,7 @@ Es soll eine einfaches Programm erstellt werden, mit welchem eine einfache Textv
 
  
 ## Build-Anleitung 
-### Vorausgesetzungen
+### Vorausetzungen
 * Korrekte Installation von Eclipse.
 * Richtig gesetztes Java Home Verzeichnis.
 * Korrekte Installation von Maven.
