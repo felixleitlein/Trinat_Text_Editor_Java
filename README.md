@@ -86,7 +86,7 @@ ___
 ### Texteditor Starten
 * Siehe Buildanleitung
 #### oder
-Die JarDatei _-jar-with-dependencies_ durch einen Doppelklick ausführen
+Die JarDatei mit _-jar-with-dependencies_ durch einen Doppelklick ausführen
 ### Texteditor schließen
 ![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/exit.jpeg "Texteditor schließen")
 
