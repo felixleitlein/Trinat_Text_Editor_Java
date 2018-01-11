@@ -81,7 +81,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | User Story 3 	| Priorisierung 	| Story Point 	| Akzeptanzkriterium 	|
 |----------------------------------------------------------------------------	|:-------------:	|------------:	|-------------------------------------------------------	|
 |  	| HOCH 	| 3 	|  	|
-| Der Benutzer möchte über ein Menu mit der Maus die Buttons für Schließen, Speichern, Laden angezeigt bekommen. 	|  	|  Nach dem Klicken auf den entsprechenden Reiter werden die Buttons "Schließen", "Speichern" und "Laden" angezeigt.	| 	|
+| Der Benutzer möchte über ein Menu mit der Maus die Buttons für Schließen, Speichern, Laden angezeigt bekommen. 	|  	|  	| Nach dem Klicken auf den entsprechenden Reiter werden die Buttons "Schließen", "Speichern" und "Laden" angezeigt.	|
 
 
 | User Story 4 	| Priorisierung 	| Story Point 	| Akzeptanzkriterium 	|
