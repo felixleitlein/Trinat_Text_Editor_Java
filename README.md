@@ -77,16 +77,16 @@ java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.j
 * Auf dem Desktop mit Rechtsklick eine neue Verknüpfung erstellen.
 * Den Pfad zuvor kopierten Pfad dort eingeben.
 * Die Verknüpfung benennen und mit OK bestätigen.
-* Die Eigenschaften der Verknüpfung aufrufen, dort im Reiter "Verknüpfung" "Anderes Symbol..." auswählen dort Symbol auswählen und mit OK bestätigen
+* Die Eigenschaften der Verknüpfung aufrufen, dort im Reiter "Verknüpfung" "Anderes Symbol..." auswählen dort Symbol auswählen und mit OK bestätigen.
 * Im Reiter "Allgemein" die Option "öffnen mit" ändern auf "Java(TM) Plattform..." und mit OK bestätigen.
 
 
 ___
 ## Kurze Bedienungsanleitung 
 ### Texteditor Starten
-* Siehe Buildanleitung
+* Siehe Buildanleitung.
 #### oder
-Aus diesem GitHub Repository Die JarDatei mit _-jar-with-dependencies_ downloaden und durch einen Doppelklick ausführen
+Aus diesem GitHub Repository Die JarDatei mit _-jar-with-dependencies_ downloaden und durch einen Doppelklick ausführen.
 ### Texteditor schließen
 ![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/exit.jpeg "Texteditor schließen")
 
@@ -376,7 +376,7 @@ private class SaveFileListener implements ActionListener {
 	}
 
 ```
-#### Klasse OpenFileListener hat ähnlichkeiten zu SaveFileListener mit dem Unterschied dieses Mal in Methode readFile mit der Mitgegeben Datei aus chooseFile einen InputStream in eine Try-Catch Schleife mit zusätzlicher Catch-Bedingungzu erzeugen
+#### Klasse OpenFileListener hat ähnlichkeiten zu SaveFileListener mit dem Unterschied dieses Mal in Methode readFile mit der Mitgegeben Datei aus chooseFile einen InputStream in eine Try-Catch Schleife mit zusätzlicher Catch-Bedingungzu erzeugen.
 
 ```javascript
 private class OpenFileListener implements ActionListener {
