@@ -13,6 +13,12 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	  + [Build Anleitung für alle Betriebssysteme](#build-anleitung-für-alle-betriebssysteme)
 	  + [Erstellen eines Desktop Icon zum Starten des Programms](#erstellen-eines-desktop-icon-zum-starten-des-programms)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
+	* [Texteditor starten](#texteditor-starten)
+	* [Texteditor schliessen](#texteditor-schliessen)
+	* [Textdatei speichern](#textdatei-speichern)
+	* [Textdatei laden](#textdatei laden)
+	* [Textdatei löschen](#textdatei-löschen)
+	* [Hot-Keys](#hot-keys)
 - [User Stories](#user-stories)
 	* [Ausbaustufe 1](#ausbaustufe-1)
 	* [Ausbaustufe 2](#ausbaustufe-2)
@@ -83,6 +89,13 @@ java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.j
 
 ___
 ## Kurze Bedienungsanleitung 
+### Texteditor Starten
+* Siehe Buildanleitung
+### Texteditor schliessen
+### Textdatei speichern
+### Textdatei laden
+### Textdatei löschen
+###  Hot-Keys
 
 
 
@@ -267,7 +280,7 @@ ___
 ## UML Diagramm
 
  
-![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/UML.jpeg "UML Diagramm")
+![alt text]()
 
 
  
