@@ -309,7 +309,7 @@ ___
 ## UML Diagramm
 
  
-![alt text]()
+![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/UML1.jpeg "UML Diagramm")
 
 
  
