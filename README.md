@@ -14,9 +14,9 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	  + [Erstellen eines Desktop Icon zum Starten des Programms](#erstellen-eines-desktop-icon-zum-starten-des-programms)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
 	* [Texteditor starten](#texteditor-starten)
-	* [Texteditor schliessen](#texteditor-schliessen)
+	* [Texteditor schließen](#texteditor-schließen)
 	* [Textdatei speichern](#textdatei-speichern)
-	* [Textdatei laden](#textdatei-laden)
+	* [Textdatei öffnen](#textdatei-öffnen)
 	* [Textdatei löschen](#textdatei-löschen)
 	* [Hot-Keys](#hot-keys)
 - [User Stories](#user-stories)
@@ -91,12 +91,41 @@ ___
 ## Kurze Bedienungsanleitung 
 ### Texteditor Starten
 * Siehe Buildanleitung
-### Texteditor schliessen
-### Textdatei speichern
-### Textdatei laden
-### Textdatei löschen
-###  Hot-Keys
+### Texteditor schließen
+![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/exit.jpeg "Texteditor schließen")
 
+
+### Textdatei speichern
+![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/speichern.jpeg "Textdatei speichern")
+
+
+### Textdatei öffnen
+![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/oeffnen.jpeg "Textdatei öffnen")
+
+
+### Textdatei löschen
+![alt text]()
+### Hot-Keys
+#### Menu _Datei_ öffnen
+```
+ALT + D
+```
+#### Eine neue Datei öffnen
+```
+ALT + N
+```
+#### Auswahl der gespeicherten Dateien
+```
+ALT + O
+```
+#### Speichern der geöffneten Datei
+```
+ALT + S
+```
+#### Texteditor beenden
+```
+ALT + X
+```
 
 
 ___
