@@ -18,10 +18,10 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 - [Releaseplan mit den Ausbaustufen](#releaseplan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
   	* [Taskliste für die Umsetzung der User Stories _US1_](#taskliste-für-die-umsetzung-der-user-stories-us1)
-  	* [Anreicherung der User Stories für die Umsetzung US1](#anreicherung-der-user-stories-für-die-umsetzung-us1)
-  	* [UML Package und Klassen und Sequenzdiagramm US1](#uml-package-und-klassen-und-sequenzdiagramm-us1)
-  	* [Dokumentation wichtiger Code Snippets US1](#dokumentation-wichtiger-code-snippets-us1)
-  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US1](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us1)
+  	* [Anreicherung der User Stories für die Umsetzung _US1_](#anreicherung-der-user-stories-für-die-umsetzung-us1)
+  	* [UML Package und Klassen und Sequenzdiagramm _US1_](#uml-package-und-klassen-und-sequenzdiagramm-us1)
+  	* [Dokumentation wichtiger Code Snippets _US1_](#dokumentation-wichtiger-code-snippets-us1)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us1)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
   	* [Taskliste für die Umsetzung der User Stories US2](#taskliste-für-die-umsetzung-der-user-stories-us2)
   	* [Anreicherung der User Stories für die Umsetzung US2](#anreicherung-der-user-stories-für-die-umsetzung-us2)
@@ -190,12 +190,12 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 1       | addActionListener erstellen                         | 7 min            |
 | Task 2       | Im ActionListener ActionPerfomred Methode erstellen | 5 min            |
 |              |                                               Summe | 0,2 h            |
-### Anreicherung der User Stories für die Umsetzung US1
-### UML Package und Klassen und Sequenzdiagramm US1
-### Dokumentation wichtiger Code Snippets US1
+### Anreicherung der User Stories für die Umsetzung _US1_
+### UML Package und Klassen und Sequenzdiagramm _US1_
+### Dokumentation wichtiger Code Snippets _US1_
 
 
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US1
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_
 
 ## Dokumentation Sprint 2 
 ### Taskliste für die Umsetzung der User Stories US2
