@@ -37,7 +37,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   	* [Dokumentation wichtiger Code Snippets _US3_](#dokumentation-wichtiger-code-snippets-us3)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us3)
 	
-	
+___
 ## Einleitung
 
 Hierbei handelt es sich um eine Gruppenarbeit, welche im Rahmen der Kurse Programmieren II – JAVA und Software Engineering unseres Studiengangs Mechatronik Trinational, im dritten Semester anzufertigen war.
@@ -46,20 +46,24 @@ Zweck dieses Projekts ist es, die erlernten Programmierkenntnisse und Prinzipien
 
 ### Ziele
 Es soll eine einfaches Programm erstellt werden, mit welchem eine einfache Textverarbeitung möglich ist. Das Programm soll auf dem Desktop eines MAC, Windows oder Linux Computer ausgeführt werden können. 
+
 ### Randbedingungen
  * Die Programmierung der Anwendung soll in JAVA erfolgen.
  * Das Projekt soll auf GitHub veröffentlich werden.
  * Die Buildautomatisierung soll mit MAVEN erfolgen.
  * Das Programm soll mittels einer dafür erstellten JAR-Datei und dem Befehl java-jar xxxxx.jar ausgeführt werden können.
 
- 
+___
 ## Build-Anleitung 
+
 ### Vorausetzungen
 * Korrekte Installation von Eclipse.
 * Richtig gesetztes Java Home Verzeichnis.
 * Korrekte Installation von Maven.
 * Korrekte Installation von Git.
+
 ### Build
+
 #### Build Anleitung für alle Betriebssysteme
 * Datei von GitHub Trinat-Bloch-Texteditor-Master herunterladen.
 * Im gewünschten Ordner entpacken.
@@ -80,12 +84,12 @@ java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.j
 * Im Reiter "Allgemein" die Option "öffnen mit" ändern auf "Java(TM) Plattform..." und mit OK bestätigen.
 
 
-
+___
 ## Kurze Bedienungsanleitung 
 
 
 
-
+___
 ## User Stories 
 
 ### Ausbaustufe 1
@@ -160,7 +164,7 @@ java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.j
 |  	| Niedrig	| 2	|  	|
 | Der Benutzer möchte mittels einer Desktopverknüpfung das Programm direkt öffen können.	|  	|  	| Durch betätigen einer Desktopverknüpfung wird das Programm ausgeführt.	|
 
-
+___
 ## Releaseplan mit den Ausbaustufen
 
 ## Dokumentation Sprint 1
@@ -199,7 +203,7 @@ java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.j
 
 
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_
-
+___
 ## Dokumentation Sprint 2 
 ### Taskliste für die Umsetzung der User Stories _US2_
 
@@ -237,7 +241,7 @@ java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.j
 ### UML Package und Klassen und Sequenzdiagramm _US2_
 ### Dokumentation wichtiger Code Snippets _US2_
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US2_
-
+___
 ## Dokumentation Sprint 3 
 ### Taskliste für die Umsetzung der User Stories _US3_
 | User Story 1 |                                                               | Aufwandschätzung |
