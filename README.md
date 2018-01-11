@@ -8,7 +8,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   * [Ziele](#ziele)
   * [Randbedingungen](#randbedingungen)
 - [Build-Anleitung](#build-anleitung)
-  * [Vorrausetzungen](#vorraussetzungen)
+  * [Vorausgesetzungen](#vorausgesetzungen)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
 - [User Stories](#user-stories)
   * [Ausbaustufe 1](#ausbaustufe-1)
