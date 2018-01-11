@@ -21,22 +21,19 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
   	* [Taskliste für die Umsetzung der User Stories _US1_](#taskliste-für-die-umsetzung-der-user-stories-us1)
   	* [Anreicherung der User Stories für die Umsetzung _US1_](#anreicherung-der-user-stories-für-die-umsetzung-us1)
-  	* [UML Package und Klassen und Sequenzdiagramm _US1_](#uml-package-und-klassen-und-sequenzdiagramm-us1)
   	* [Dokumentation wichtiger Code Snippets _US1_](#dokumentation-wichtiger-code-snippets-us1)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us1)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
   	* [Taskliste für die Umsetzung der User Stories _US2_](#taskliste-für-die-umsetzung-der-user-stories-us2)
   	* [Anreicherung der User Stories für die Umsetzung _US2_](#anreicherung-der-user-stories-für-die-umsetzung-us2)
-  	* [UML Package und Klassen und Sequenzdiagramm _US2_](#uml-package-und-klassen-und-sequenzdiagramm-us2)
   	* [Dokumentation wichtiger Code Snippets _US2_](#dokumentation-wichtiger-code-snippets-us2)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US2_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us2)
 - [Dokumentation Sprint 3](#dokumentation-sprint-3)
   	* [Taskliste für die Umsetzung der User Stories _US3_](#taskliste-für-die-umsetzung-der-user-stories-us3)
   	* [Anreicherung der User Stories für die Umsetzung _US3_](#anreicherung-der-user-stories-für-die-umsetzung-us3)
-  	* [UML Package und Klassen und Sequenzdiagramm _US3_](#uml-package-und-klassen-und-sequenzdiagramm-us3)
   	* [Dokumentation wichtiger Code Snippets _US3_](#dokumentation-wichtiger-code-snippets-us3)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us3)
-	
+- [UML und Klassendiagram](#uml-und-klassendiagram)	
 ___
 ## Einleitung
 
@@ -266,6 +263,8 @@ ___
 ### UML Package und Klassen und Sequenzdiagramm _US3_
 ### Dokumentation wichtiger Code Snippets _US3_
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_ 
+
+# Klassendiagram
 
 
 
