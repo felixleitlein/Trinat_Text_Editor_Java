@@ -5,9 +5,16 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 
 ## Inhaltsverzeichnis
 - [Einleitung](#einleitung)
+	* [Ziele](#ziele)
+	* [Randbedingungen](#randbedingungen)
 - [Build-Anleitung](#build-anleitung)
+	* [Vorausetzungen](#vorausetzungen)
+	* [Build](#build)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
 - [User Story's](#user-stories)
+	* [Ausbaustufe 1](#ausbaustufe-1)
+	* [Ausbaustufe 2](#ausbaustufe-2)
+	* [Ausbaustufe 3](#ausbaustufe-3)
 - [Releaseplan mit den Ausbaustufen](#release-plan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
   * [Taskliste für die Umsetzung der User Story](#tasklistet-für-die-umsetzun-der-user-story)
@@ -43,7 +50,7 @@ Es soll eine einfaches Programm erstellt werden, mit welchem eine einfache Textv
 * Richtig gesetztes Java Home Verzeichnis.
 * Korrekte Installation von Maven.
 * Korrekte Installation von Git.
-
+### Build
 Build Anleitung für alle Betriebssysteme
 •	Datei von GitHub Trinat-Bloch-Texteditor-Master herunterladen.
 •	Im gewünschten Ordner entpacken.
@@ -171,64 +178,12 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 ### Anreicherung der User Story's für die Umsetzung
 ### UML Package, Klassen- und Sequenzdiagramm
 ### Dokumentation wichtiger Code Snippets
-#### Main Klasse :-)
-##### Bibliotheken Imports
-```
-import java.awt.Container;
-import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.*;
-```
-#### Erstellen des Textfields, Action und ButtonListener
-```
-public class Sprint {
 
-	JTextField textField;
-	JTextArea textArea;
-	
-	public static void main(String[] args) throws ClassNotFoundException, InstantiationException,
-	IllegalAccessException, UnsupportedLookAndFeelException {
-		// TODO Auto-generated method stub
-
-		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-
-		new Sprint().creatFrame();
-	}
-
-
-
-	private class OpenActionListener implements ActionListener {
-
-		public void actionPerformed(ActionEvent e) {
-			System.out.println("Oeffnen wurde ausgewählt.");
-
-		}
-	};
-
-	private class ExitActionListener implements ActionListener {
-
-		public void actionPerformed(ActionEvent e) {
-			System.out.println("Beenden wurde ausgewählt.");
-			System.exit(0);
-		}
-	};
-
-	private class ButtonListener implements ActionListener {
-
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			// TODO Auto-generated method stub
-			System.out.println("Button wurde betaetigt.");
-		}
-
-	}
-```
 
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
 
 ## Dokumentation Sprint 2 
-### Taskliste für die Umsetzung der User Story
+### Taskliste für die Umsetzung der User Story (US2)
 
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
@@ -260,13 +215,13 @@ public class Sprint {
 | Task 3       | setFrameStitle in createAndShowGui auffrufen | 5  min           |
 | Task 5       | Title_Bar zu JFrame hinzufügen               | 5  min           |
 |              |                                        Summe | 0,33 h           |
-### Anreicherung der User Stories für die Umsetzung
-### UML Package, Klassen- und Sequenzdiagramm
-### Dokumentation wichtiger Code Snippets
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
+### Anreicherung der User Stories für die Umsetzung (US2)
+### UML Package, Klassen- und Sequenzdiagramm (US2)
+### Dokumentation wichtiger Code Snippets (US2)
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories (US2)
 
 ## Dokumentation Sprint 3 
-### Taskliste für die Umsetzung der User Story
+### Taskliste für die Umsetzung der User Story (US3)
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
 | Task 1       | Erstellen newItem                                             | 5  min           |
@@ -285,17 +240,12 @@ public class Sprint {
 |--------------|-----------------------------------|------------------|
 | Task 1       | setMnemonic in fileMenu erstellen | 10 min           |
 |              |                             Summe | 0,3  h           |
-### Anreicherung der User Stories für die Umsetzung
-### UML Package, Klassen- und Sequenzdiagramm
-### Dokumentation wichtiger Code Snippets
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
+### Anreicherung der User Stories für die Umsetzung(US3)
+### UML Package, Klassen- und Sequenzdiagramm(US3)
+### Dokumentation wichtiger Code Snippets(US3)
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories(US3)
 
 
-### Taskliste für die Umsetzung der User Story
-### Anreicherung der User Stories für die Umsetzung
-### UML Package, Klassen- und Sequenzdiagramm
-### Dokumentation wichtiger Code Snippets
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
 
 
 
