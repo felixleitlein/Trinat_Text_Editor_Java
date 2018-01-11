@@ -234,7 +234,8 @@ ___
 | Task 2       | Im ActionListener ActionPerfomred Methode erstellen | 5 min            |
 |              |                                               Summe | 0,2 h            |
 
-
+| Deadline der Umsetzung Sprint 1 | 07.01.2018 |
+|---------------------------------|------------|
 #### Dokumentation wichtiger Code Snippets _US1_
 ##### Erzeugt main Methode für Einstieg in Programmablauf. Wirft eine Ausnahme für die folgenden Zeilen. Mithilfe der Klasse SwingUtilities und deren Methode invokeLater wird darauffolgend in einem Lambda Event mit neuer Runnable die möglichkeit gegeben eine Methode run zu bedienen. In dieser wird eine Neue Instanz der Hauptklasse erzeugt mit der Methode createAndShowGUI.
 ```javascript
@@ -329,7 +330,8 @@ ___
 | Task 5       | Title_Bar zu JFrame hinzufügen               | 5  min           |
 |              |                                        Summe | 0,33 h           |
 
-
+| Deadline der Umsetzung Sprint 2 | 08.01.2018 |
+|---------------------------------|------------|
 #### Dokumentation wichtiger Code Snippets _US2_
 ##### Klasse SaveFileListener mit Action Listener enthält die Methoden  actionPerformed und chooseFIle. In actionPerformed wird zuerst eine kontrollschleife ausgeführt ob ein datei (File) geladen ist. Darauffolgend wird versucht dieses als DefaultStyledDocument in einer Try-Catch Schleife durch einen FileOutputStream abzuspeichern. 
 
@@ -432,7 +434,8 @@ ___
 | Task 1       | setMnemonic in fileMenu erstellen | 10 min           |
 |              |                             Summe | 0,3  h           |
 
-
+| Deadline der Umsetzung Sprint 3 | 10.01.2018 |
+|---------------------------------|------------|
 #### Dokumentation wichtiger Code Snippets _US3_
 ##### Neue Klasse für die Erstellung einer neuen Datei. Somit wird die alte Überschrieben und auch der Titel der Titel Bar aktualisiert.
 ```javascript
