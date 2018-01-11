@@ -269,8 +269,8 @@ ___
  
 ![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/UML%20und%20Klassendiagram.PNG)
 
-
-
+___
+![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/ClassDokumentation.pdf)
 
  
 
