@@ -20,7 +20,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   	* [Taskliste für die Umsetzung der User Story US1](#taskliste-für-die-umsetzung-der-user-story-us1)
   	* [Anreicherung der User Story für die Umsetzung US1](#anreicherung-der-user-story-für-die-umsetzung-us1)
   	* [UML Package und Klassen und Sequenzdiagramm US1](#uml-package-und-klassen-und-sequenzdiagramm-us1)
-  	* [Dokumentation wichtiger Code Snippets US1](#dokumentation-wichtiger-code-snippets)
+  	* [Dokumentation wichtiger Code Snippets US1](#dokumentation-wichtiger-code-snippets-us1)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US1](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us1)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
   	* [Taskliste für die Umsetzung der User Story US2](#taskliste-für-die-umsetzung-der-user-story-us2)
