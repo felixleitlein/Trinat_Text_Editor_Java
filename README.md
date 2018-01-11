@@ -10,6 +10,8 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 - [Build-Anleitung](#build-anleitung)
 	* [Vorausetzungen](#vorausetzungen)
 	* [Build](#build)
+	  + [Build Anleitung für alle Betriebssysteme](#build-anleitung-für-alle-betriebssysteme)
+	  + [Erstellen eines Desktop Icon zum Starten des Programms](#erstellen-eines-desktop-icon-zum-starten-des-programms)
 - [Kurze Bedienungsanleitung ](#kurze-bedienungsanleitung)
 - [User Stories](#user-stories)
 	* [Ausbaustufe 1](#ausbaustufe-1)
