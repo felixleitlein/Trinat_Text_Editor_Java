@@ -33,7 +33,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   	* [Anreicherung der User Stories für die Umsetzung _US3_](#anreicherung-der-user-stories-für-die-umsetzung-us3)
   	* [Dokumentation wichtiger Code Snippets _US3_](#dokumentation-wichtiger-code-snippets-us3)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us3)
-- [UML Diagramm](#uml-dagramm)	
+- [UML Diagramm](#uml-diagramm)	
 ___
 ## Einleitung
 
