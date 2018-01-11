@@ -17,7 +17,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	* [Ausbaustufe 3](#ausbaustufe-3)
 - [Releaseplan mit den Ausbaustufen](#releaseplan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
-  	* [Taskliste für die Umsetzung der User Stories US1](#taskliste-für-die-umsetzung-der-user-stories-us1)
+  	* [Taskliste für die Umsetzung der User Stories _US1_](#taskliste-für-die-umsetzung-der-user-stories-us1)
   	* [Anreicherung der User Stories für die Umsetzung US1](#anreicherung-der-user-stories-für-die-umsetzung-us1)
   	* [UML Package und Klassen und Sequenzdiagramm US1](#uml-package-und-klassen-und-sequenzdiagramm-us1)
   	* [Dokumentation wichtiger Code Snippets US1](#dokumentation-wichtiger-code-snippets-us1)
@@ -161,7 +161,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 ## Releaseplan mit den Ausbaustufen
 
 ## Dokumentation Sprint 1
-### Taskliste für die Umsetzung der User Stories US1
+### Taskliste für die Umsetzung der User Stories _US1_
 | User Story 1 |                             | Aufwandschätzung | 
 |--------------|-----------------------------|------------------|
 | Task 1       | Erstellen einer Klasse      | 5  min           |
