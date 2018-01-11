@@ -17,9 +17,9 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	* [Ausbaustufe 3](#ausbaustufe-3)
 - [Releaseplan mit den Ausbaustufen](#releaseplan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
-  * [Taskliste für die Umsetzung der User Story (US1)](#taskliste-für-die-umsetzung-der-user-story-(us1))
-  * [Anreicherung der User Story für die Umsetzung (US1)](#anreicherung-der-user-story-für-die-umsetzung-(us1))
-  * [UML Package / Klassen und Sequenzdiagramm (US1)](#uml-package-/-klassen-und-sequenzdiagramm-(us1))
+  * [Taskliste für die Umsetzung der User Story US1](#taskliste-für-die-umsetzung-der-user-story-us1)
+  * [Anreicherung der User Story für die Umsetzung US1](#anreicherung-der-user-story-für-die-umsetzung-us1)
+  * [UML Package / Klassen und Sequenzdiagramm US1](#uml-package-/-klassen-und-sequenzdiagramm-us1)
   * [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
   * [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-der-user-stories)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
@@ -154,7 +154,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 ## Releaseplan mit den Ausbaustufen
 
 ## Dokumentation Sprint 1
-### Taskliste für die Umsetzung der User Story (US1)
+### Taskliste für die Umsetzung der User Story US1
 | User Story 1 |                             | Aufwandschätzung | 
 |--------------|-----------------------------|------------------|
 | Task 1       | Erstellen einer Klasse      | 5  min           |
@@ -183,15 +183,15 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 1       | addActionListener erstellen                         | 7 min            |
 | Task 2       | Im ActionListener ActionPerfomred Methode erstellen | 5 min            |
 |              |                                               Summe | 0,2 h            |
-### Anreicherung der User Story für die Umsetzung (US1)
-### UML Package / Klassen und Sequenzdiagramm (US1)
-### Dokumentation wichtiger Code Snippets (US1)
+### Anreicherung der User Story für die Umsetzung US1
+### UML Package / Klassen und Sequenzdiagramm US1
+### Dokumentation wichtiger Code Snippets US1
 
 
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories (US1)
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US1
 
 ## Dokumentation Sprint 2 
-### Taskliste für die Umsetzung der User Story (US2)
+### Taskliste für die Umsetzung der User Story US2
 
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
