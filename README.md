@@ -20,14 +20,14 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   	* [Taskliste für die Umsetzung der User Story US1](#taskliste-für-die-umsetzung-der-user-story-us1)
   	* [Anreicherung der User Story für die Umsetzung US1](#anreicherung-der-user-story-für-die-umsetzung-us1)
   	* [UML Package und Klassen und Sequenzdiagramm US1](#uml-package-und-klassen-und-sequenzdiagramm-us1)
-  	* [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
-  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-		der-user-stories)
+  	* [Dokumentation wichtiger Code Snippets US1](#dokumentation-wichtiger-code-snippets)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story US1](#herleitung-der-testfälle-aus-den-azeptanzkriterien-der-user-story-us1)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
-  	* [Taskliste für die Umsetzung der User Story](#tasklistetfür-die-Umsetzun-der-User-Story)
-  	* [Anreicherung der User Story's für die Umsetzung](#anreicherung-der-user-stories-für-die-umsetzung)
-  	* [UML Package, Klassen und Sequenzdiagramm](#uml-package,-klassen-und-sequenzdiagramm)
-  	* [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
-  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story's](#herleitung-der-testfälle-aus-den-azeptanzkriterien-		der-user-stories)
+  	* [Taskliste für die Umsetzung der User Story US2](#taskliste-für-die-umsetzung-der-user-story-us2)
+  	* [Anreicherung der User Story für die Umsetzung US2](#anreicherung-der-user-story-für-die-umsetzung-us2)
+  	* [UML Package und Klassen und Sequenzdiagramm US2](#uml-package-und-klassen-und-sequenzdiagramm-us2)
+  	* [Dokumentation wichtiger Code Snippets US2](#dokumentation-wichtiger-code-snippets-us2)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Story US2](#herleitung-der-testfälle-aus-den-azeptanzkriterien-der-user-story-us2)
 ## Einleitung
 
 Hierbei handelt es sich um eine Gruppenarbeit, welche im Rahmen der Kurse Programmieren II – JAVA und Software Engineering unseres Studiengangs Mechatronik Trinational, im dritten Semester anzufertigen war.
@@ -222,10 +222,10 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 3       | setFrameStitle in createAndShowGui auffrufen | 5  min           |
 | Task 5       | Title_Bar zu JFrame hinzufügen               | 5  min           |
 |              |                                        Summe | 0,33 h           |
-### Anreicherung der User Stories für die Umsetzung (US2)
-### UML Package, Klassen- und Sequenzdiagramm (US2)
-### Dokumentation wichtiger Code Snippets (US2)
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories (US2)
+### Anreicherung der User Story für die Umsetzung US2
+### UML Package und Klassen und Sequenzdiagramm US2
+### Dokumentation wichtiger Code Snippets US2
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Story US2
 
 ## Dokumentation Sprint 3 
 ### Taskliste für die Umsetzung der User Story (US3)
