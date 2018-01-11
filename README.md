@@ -264,8 +264,10 @@ ___
 ### Dokumentation wichtiger Code Snippets _US3_
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_ 
 
-# Klassendiagram
+# UML und Klassendiagram
 
+ 
+![alt text](https://github.com/felixleitlein/Trinat_Text_Editor_Java/blob/master/attachment/images/UML%20und%20Klassendiagram.PNG)
 
 
 
