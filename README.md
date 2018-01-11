@@ -234,8 +234,63 @@ ___
 
 
 ### Dokumentation wichtiger Code Snippets _US1_
+#### Erzeugt main Methode für Einstieg in Programmablauf. Wirft eine Ausnahme für die folgenden Zeilen. Mithilfe der Klasse SwingUtilities und deren Methode invokeLater wird darauffolgend in einem Lambda Event mit neuer Runnable die möglichkeit gegeben eine Methode run zu bedienen. In dieser wird eine Neue Instanz der Hauptklasse erzeugt mit der Methode createAndShowGUI.
+```javascript
+public static void main(String[] args) throws Exception {
+
+		SwingUtilities.invokeLater(new Runnable() {
+
+			public void run() {
+
+				new TexteditorBloch().createAndShowGUI();
+			}
+		});
+	}
+
+```
+#### Methode createAndShowGUI für alle Komponenten die im Texteditor angezeigt und Instanziiert werden sollen. JScrollPane ist die Klasse die für das beschreibbare Fenster verantwortlich ist. Durch Hinzufügen der Elemente zum JFrame werden diese angezeigt an der gewünschten Stelle. 
+```javascript
+private void createAndShowGUI() {
+
+		rahmen = new JFrame();
+		editor = new JTextPane();
+		
+		JScrollPane editorScrollPane = new JScrollPane(editor);
+
+		rahmen.add(editorScrollPane, BorderLayout.CENTER);
+		
+		JMenuBar menuBar = new JMenuBar();
+		
+		JMenu fileMenu = new JMenu("Datei");
+		
+		
+		
+		JMenuItem openItem = new JMenuItem("Oeffnen");
+		
+		JMenuItem saveItem = new JMenuItem("Speichern");
+		
+		JMenuItem exitItem = new JMenuItem("Exit");
+		
+		
+		
+		fileMenu.add(openItem);
+		fileMenu.add(saveItem);
+		fileMenu.add(exitItem);
+		
+		menuBar.add(fileMenu);
+		
+		rahmen.setJMenuBar(menuBar);
+		rahmen.setSize(900, 600);
+		rahmen.setLocation(80, 80);
+		rahmen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		rahmen.setVisible(true);
+
+		editor.requestFocusInWindow();
+
+	}
 
 
+```
 
 ___
 ## Dokumentation Sprint 2 
@@ -274,7 +329,85 @@ ___
 
 
 ### Dokumentation wichtiger Code Snippets _US2_
+#### Klasse SaveFileListener mit Action Listener enthält die Methoden  actionPerformed und chooseFIle. In actionPerformed wird zuerst eine kontrollschleife ausgeführt ob ein datei (File) geladen ist. Darauffolgend wird versucht dieses als DefaultStyledDocument in einer Try-Catch Schleife durch einen FileOutputStream abzuspeichern. 
 
+```javascript
+private class SaveFileListener implements ActionListener {
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+
+			if (datei == null) {
+
+				datei = chooseFile();
+
+				if (datei == null) {
+
+					return;
+				}
+			}
+
+			DefaultStyledDocument doc = (DefaultStyledDocument) getEditorDocument();
+
+			try (OutputStream fos = new FileOutputStream(datei); ObjectOutputStream oos = new ObjectOutputStream(fos)) {
+
+				oos.writeObject(doc);
+			} catch (IOException ex) {
+
+				throw new RuntimeException(ex);
+			}
+
+			setFrameTitleWithExtn(datei.getName());
+		}
+
+		private File chooseFile() {
+
+			JFileChooser chooser = new JFileChooser();
+
+			if (chooser.showSaveDialog(rahmen) == JFileChooser.APPROVE_OPTION) {
+
+				return chooser.getSelectedFile();
+			} else {
+				return null;
+			}
+		}
+	}
+
+```
+#### Klasse OpenFileListener hat ähnlichkeiten zu SaveFileListener mit dem Unterschied dieses Mal in Methode readFile mit der Mitgegeben Datei aus chooseFile einen InputStream in eine Try-Catch Schleife mit zusätzlicher Catch-Bedingungzu erzeugen
+
+```javascript
+private class OpenFileListener implements ActionListener {
+
+public void actionPerformed(ActionEvent e)
+{…………}
+
+private File chooseFile()
+{…………}
+
+private void readFile(File file) {
+
+			StyledDocument doc = null;
+
+			try (InputStream fis = new FileInputStream(file); ObjectInputStream ois = new ObjectInputStream(fis)) {
+
+				doc = (DefaultStyledDocument) ois.readObject();
+			} catch (FileNotFoundException ex) {
+
+				JOptionPane.showMessageDialog(rahmen, "Input file was not found!");
+				return;
+			} catch (ClassNotFoundException | IOException ex) {
+
+				throw new RuntimeException(ex);
+			}
+
+			editor.setDocument(doc);
+			
+		}
+
+	}
+
+```
 ___
 ## Dokumentation Sprint 3 
 ### Taskliste für die Umsetzung der User Stories _US3_
@@ -299,7 +432,74 @@ ___
 
 
 ### Dokumentation wichtiger Code Snippets _US3_
+#### Neue Klasse für die Erstellung einer neuen Datei. Somit wird die alte Überschrieben und auch der Titel der Titel Bar aktualisiert.
+```javascript
+private class NewFileListener implements ActionListener {
 
+		@Override
+		public void actionPerformed(ActionEvent e) {
+
+			editor.setDocument(getNewDocument());
+			datei = null;
+			setFrameTitleWithExtn("Neu");
+		}
+
+	}
+
+```
+
+#### Durch Aufruf dieser Methode in Klasse OpenFileListener und SaveFileListener wird einem die Möglichkeit gegeben Dateien zu löschen durch drücken der delete taste. 
+
+```javascript
+private void registerDelAction() {
+		
+		// Create AbstractAction
+		// It is an implementation of javax.swing.Action
+		AbstractAction a = new AbstractAction() {
+
+			private static final long serialVersionUID = 1L;
+
+			// Write the handler
+			public void actionPerformed(ActionEvent ae) {
+				chooser = (JFileChooser) ae.getSource();
+				try {
+
+					// If some file is selected
+					if (chooser.getSelectedFiles() != null) {
+						// If user confirms to delete
+						if (askConfirm() == JOptionPane.YES_OPTION) {
+
+							// Call Files.delete(), if any problem occurs
+							// the exception can be printed, it can be
+							// analysed
+							for (File f : chooser.getSelectedFiles())
+								java.nio.file.Files.delete(f.toPath());
+
+							// Rescan the directory after deletion
+							chooser.rescanCurrentDirectory();
+						}
+					}
+				} catch (Exception e) {
+					System.out.println(e);
+				}
+			}
+		};
+
+		// Get action map and map, "delAction" with a
+		chooser.getActionMap().put("delAction", a);
+
+		// Get input map when jf is in focused window and put a keystroke DELETE
+		// associate the key stroke (DELETE) (here) with "delAction"
+		chooser.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke("DELETE"), "delAction");
+	}
+	public int askConfirm() {
+		// Ask the user whether he/she wants to confirm deleting
+		// Return the option chosen by the user either YES/NO
+		
+		return JOptionPane.showConfirmDialog(chooser, "Möchten Sie diese Datei(en) löschen? ");
+	}
+
+```
 ___
 ## UML Diagramm
 
