@@ -23,17 +23,17 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   	* [Dokumentation wichtiger Code Snippets _US1_](#dokumentation-wichtiger-code-snippets-us1)
   	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us1)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
-  	* [Taskliste für die Umsetzung der User Stories US2](#taskliste-für-die-umsetzung-der-user-stories-us2)
-  	* [Anreicherung der User Stories für die Umsetzung US2](#anreicherung-der-user-stories-für-die-umsetzung-us2)
-  	* [UML Package und Klassen und Sequenzdiagramm US2](#uml-package-und-klassen-und-sequenzdiagramm-us2)
-  	* [Dokumentation wichtiger Code Snippets US2](#dokumentation-wichtiger-code-snippets-us2)
-  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US2](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us2)
+  	* [Taskliste für die Umsetzung der User Stories _US2_](#taskliste-für-die-umsetzung-der-user-stories-us2)
+  	* [Anreicherung der User Stories für die Umsetzung _US2_](#anreicherung-der-user-stories-für-die-umsetzung-us2)
+  	* [UML Package und Klassen und Sequenzdiagramm _US2_](#uml-package-und-klassen-und-sequenzdiagramm-us2)
+  	* [Dokumentation wichtiger Code Snippets _US2_](#dokumentation-wichtiger-code-snippets-us2)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US2_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us2)
 - [Dokumentation Sprint 3](#dokumentation-sprint-3)
-  	* [Taskliste für die Umsetzung der User Stories US3](#taskliste-für-die-umsetzung-der-user-stories-us3)
-  	* [Anreicherung der User Stories für die Umsetzung US3](#anreicherung-der-user-stories-für-die-umsetzung-us3)
-  	* [UML Package und Klassen und Sequenzdiagramm US3](#uml-package-und-klassen-und-sequenzdiagramm-us3)
-  	* [Dokumentation wichtiger Code Snippets US3](#dokumentation-wichtiger-code-snippets-us3)
-  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US3](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us3)
+  	* [Taskliste für die Umsetzung der User Stories _US3_](#taskliste-für-die-umsetzung-der-user-stories-us3)
+  	* [Anreicherung der User Stories für die Umsetzung _US3_](#anreicherung-der-user-stories-für-die-umsetzung-us3)
+  	* [UML Package und Klassen und Sequenzdiagramm _US3_](#uml-package-und-klassen-und-sequenzdiagramm-us3)
+  	* [Dokumentation wichtiger Code Snippets _US3_](#dokumentation-wichtiger-code-snippets-us3)
+  	* [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_](#herleitung-der-testfälle-aus-den-akzeptanzkriterien-der-user-stories-us3)
 	
 	
 ## Einleitung
@@ -198,7 +198,7 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 ### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_
 
 ## Dokumentation Sprint 2 
-### Taskliste für die Umsetzung der User Stories US2
+### Taskliste für die Umsetzung der User Stories _US2_
 
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
@@ -230,13 +230,13 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 | Task 3       | setFrameStitle in createAndShowGui auffrufen | 5  min           |
 | Task 5       | Title_Bar zu JFrame hinzufügen               | 5  min           |
 |              |                                        Summe | 0,33 h           |
-### Anreicherung der User Stories für die Umsetzung US2
-### UML Package und Klassen und Sequenzdiagramm US2
-### Dokumentation wichtiger Code Snippets US2
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US2
+### Anreicherung der User Stories für die Umsetzung _US2_
+### UML Package und Klassen und Sequenzdiagramm _US2_
+### Dokumentation wichtiger Code Snippets _US2_
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US2_
 
 ## Dokumentation Sprint 3 
-### Taskliste für die Umsetzung der User Stories US3
+### Taskliste für die Umsetzung der User Stories _US3_
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
 | Task 1       | Erstellen newItem                                             | 5  min           |
@@ -255,10 +255,10 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 |--------------|-----------------------------------|------------------|
 | Task 1       | setMnemonic in fileMenu erstellen | 10 min           |
 |              |                             Summe | 0,3  h           |
-### Anreicherung der User Stories für die Umsetzung US3
-### UML Package und Klassen und Sequenzdiagramm US3
-### Dokumentation wichtiger Code Snippets US3
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories US3 
+### Anreicherung der User Stories für die Umsetzung _US3_
+### UML Package und Klassen und Sequenzdiagramm _US3_
+### Dokumentation wichtiger Code Snippets _US3_
+### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US3_ 
 
 
 
