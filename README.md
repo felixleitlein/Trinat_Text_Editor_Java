@@ -203,8 +203,8 @@ ___
 ___
 ## Releaseplan mit den Ausbaustufen
 
-## Dokumentation Sprint 1
-### Taskliste für die Umsetzung der User Stories _US1_
+### Dokumentation Sprint 1
+#### Taskliste für die Umsetzung der User Stories _US1_
 | User Story 1 |                             | Aufwandschätzung | 
 |--------------|-----------------------------|------------------|
 | Task 1       | Erstellen einer Klasse      | 5  min           |
@@ -235,8 +235,8 @@ ___
 |              |                                               Summe | 0,2 h            |
 
 
-### Dokumentation wichtiger Code Snippets _US1_
-#### Erzeugt main Methode für Einstieg in Programmablauf. Wirft eine Ausnahme für die folgenden Zeilen. Mithilfe der Klasse SwingUtilities und deren Methode invokeLater wird darauffolgend in einem Lambda Event mit neuer Runnable die möglichkeit gegeben eine Methode run zu bedienen. In dieser wird eine Neue Instanz der Hauptklasse erzeugt mit der Methode createAndShowGUI.
+#### Dokumentation wichtiger Code Snippets _US1_
+##### Erzeugt main Methode für Einstieg in Programmablauf. Wirft eine Ausnahme für die folgenden Zeilen. Mithilfe der Klasse SwingUtilities und deren Methode invokeLater wird darauffolgend in einem Lambda Event mit neuer Runnable die möglichkeit gegeben eine Methode run zu bedienen. In dieser wird eine Neue Instanz der Hauptklasse erzeugt mit der Methode createAndShowGUI.
 ```javascript
 public static void main(String[] args) throws Exception {
 
@@ -250,7 +250,7 @@ public static void main(String[] args) throws Exception {
 	}
 
 ```
-#### Methode createAndShowGUI für alle Komponenten die im Texteditor angezeigt und Instanziiert werden sollen. JScrollPane ist die Klasse die für das beschreibbare Fenster verantwortlich ist. Durch Hinzufügen der Elemente zum JFrame werden diese angezeigt an der gewünschten Stelle. 
+##### Methode createAndShowGUI für alle Komponenten die im Texteditor angezeigt und Instanziiert werden sollen. JScrollPane ist die Klasse die für das beschreibbare Fenster verantwortlich ist. Durch Hinzufügen der Elemente zum JFrame werden diese angezeigt an der gewünschten Stelle. 
 ```javascript
 private void createAndShowGUI() {
 
@@ -295,8 +295,8 @@ private void createAndShowGUI() {
 ```
 
 ___
-## Dokumentation Sprint 2 
-### Taskliste für die Umsetzung der User Stories _US2_
+### Dokumentation Sprint 2 
+#### Taskliste für die Umsetzung der User Stories _US2_
 
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
@@ -330,8 +330,8 @@ ___
 |              |                                        Summe | 0,33 h           |
 
 
-### Dokumentation wichtiger Code Snippets _US2_
-#### Klasse SaveFileListener mit Action Listener enthält die Methoden  actionPerformed und chooseFIle. In actionPerformed wird zuerst eine kontrollschleife ausgeführt ob ein datei (File) geladen ist. Darauffolgend wird versucht dieses als DefaultStyledDocument in einer Try-Catch Schleife durch einen FileOutputStream abzuspeichern. 
+#### Dokumentation wichtiger Code Snippets _US2_
+##### Klasse SaveFileListener mit Action Listener enthält die Methoden  actionPerformed und chooseFIle. In actionPerformed wird zuerst eine kontrollschleife ausgeführt ob ein datei (File) geladen ist. Darauffolgend wird versucht dieses als DefaultStyledDocument in einer Try-Catch Schleife durch einen FileOutputStream abzuspeichern. 
 
 ```javascript
 private class SaveFileListener implements ActionListener {
@@ -376,7 +376,7 @@ private class SaveFileListener implements ActionListener {
 	}
 
 ```
-#### Klasse OpenFileListener hat ähnlichkeiten zu SaveFileListener mit dem Unterschied dieses Mal in Methode readFile mit der Mitgegeben Datei aus chooseFile einen InputStream in eine Try-Catch Schleife mit zusätzlicher Catch-Bedingungzu erzeugen.
+##### Klasse OpenFileListener hat ähnlichkeiten zu SaveFileListener mit dem Unterschied dieses Mal in Methode readFile mit der Mitgegeben Datei aus chooseFile einen InputStream in eine Try-Catch Schleife mit zusätzlicher Catch-Bedingungzu erzeugen.
 
 ```javascript
 private class OpenFileListener implements ActionListener {
@@ -411,8 +411,8 @@ private void readFile(File file) {
 
 ```
 ___
-## Dokumentation Sprint 3 
-### Taskliste für die Umsetzung der User Stories _US3_
+### Dokumentation Sprint 3 
+#### Taskliste für die Umsetzung der User Stories _US3_
 | User Story 1 |                                                               | Aufwandschätzung |
 |--------------|---------------------------------------------------------------|------------------|
 | Task 1       | Erstellen newItem                                             | 5  min           |
@@ -433,8 +433,8 @@ ___
 |              |                             Summe | 0,3  h           |
 
 
-### Dokumentation wichtiger Code Snippets _US3_
-#### Neue Klasse für die Erstellung einer neuen Datei. Somit wird die alte Überschrieben und auch der Titel der Titel Bar aktualisiert.
+#### Dokumentation wichtiger Code Snippets _US3_
+##### Neue Klasse für die Erstellung einer neuen Datei. Somit wird die alte Überschrieben und auch der Titel der Titel Bar aktualisiert.
 ```javascript
 private class NewFileListener implements ActionListener {
 
@@ -450,7 +450,7 @@ private class NewFileListener implements ActionListener {
 
 ```
 
-#### Durch Aufruf dieser Methode in Klasse OpenFileListener und SaveFileListener wird einem die Möglichkeit gegeben Dateien zu löschen durch drücken der delete taste. 
+##### Durch Aufruf dieser Methode in Klasse OpenFileListener und SaveFileListener wird einem die Möglichkeit gegeben Dateien zu löschen durch drücken der delete taste. 
 
 ```javascript
 private void registerDelAction() {
