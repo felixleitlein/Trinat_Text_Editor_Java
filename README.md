@@ -15,7 +15,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 	* [Ausbaustufe 1](#ausbaustufe-1)
 	* [Ausbaustufe 2](#ausbaustufe-2)
 	* [Ausbaustufe 3](#ausbaustufe-3)
-- [Releaseplan mit den Ausbaustufen](#release-plan-mit-den-ausbaustufen)
+- [Releaseplan mit den Ausbaustufen](#releaseplan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
   * [Taskliste für die Umsetzung der User Story](#tasklistet-für-die-umsetzun-der-user-story)
   * [Anreicherung der User Story's für die Umsetzung](#anreicherung-der-user-stories-für-die-umsetzung)
@@ -73,7 +73,11 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 
 ## Kurze Bedienungsanleitung 
 
+
+
+
 ## User Stories 
+
 ### Ausbaustufe 1
 | User Story 1 	| Priorisierung 	| Story Point 	| Akzeptanzkriterium 	|
 |----------------------------------------------------------------------------	|:-------------:	|------------:	|-------------------------------------------------------	|
@@ -114,6 +118,10 @@ Besonders für Windows Betriebssystem - Erstellen eines Desktop Icon zum Starten
 |----------------------------------------------------------------------------	|:-------------:	|------------:	|-------------------------------------------------------	|
 |  	| Niedrig	| 2	|  	|
 | Der Benutzer möchte, dass im Frame der Titel des Programms angezeigt wird.	|  	|  	| Sobald das Hauptfenster des Programms geöffnet wird, soll im oberen Rahmen der Programmtitel angezeigt werden.	|
+
+
+
+
 
 ### Ausbaustufe 3
 
