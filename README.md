@@ -16,7 +16,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
   * [Ausbaustufe 3](#ausbaustufe-3)
 - [Release plan mit den Ausbaustufen](#release-plan-mit-den-ausbaustufen)
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
-  * [Taskliste für die Umsetzung der User Story](#tasklistet-für-die-umsetzun-der-user-story)
+  * [Taskliste für die Umsetzung der User Story](#taskliste-für-die-umsetzung-der-user-story)
   * [Anreicherung der User Stories für die Umsetzung](#anreicherung-der-user-stories-für-die-umsetzung)
   * [UML Package, Klassen und Sequenzdiagramm](#uml-package,-klassen-und-sequenzdiagramm)
   * [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
