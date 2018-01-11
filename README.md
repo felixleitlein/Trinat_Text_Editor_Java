@@ -98,7 +98,8 @@ ___
 
 
 ### Textdatei löschen
-![alt text]()
+_Date_ -> _Öffnen_ -> gewünschte Datei mit Mausklick auswählen und mit Taste _Entf_ löschen.
+
 ### Hot-Keys
 #### Menu _Datei_ öffnen
 ```
