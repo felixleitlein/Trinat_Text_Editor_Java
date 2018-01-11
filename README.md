@@ -235,7 +235,7 @@ ___
 ### Dokumentation wichtiger Code Snippets _US1_
 
 
-### Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories _US1_
+
 ___
 ## Dokumentation Sprint 2 
 ### Taskliste für die Umsetzung der User Stories _US2_
