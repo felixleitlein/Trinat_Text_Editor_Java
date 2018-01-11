@@ -29,7 +29,7 @@ ___
   	+ [Dokumentation wichtiger Code Snippets _US1_](#dokumentation-wichtiger-code-snippets-us1)
   * [Dokumentation Sprint 2](#dokumentation-sprint-2)
   	+ [Taskliste für die Umsetzung der User Stories _US2_](#taskliste-für-die-umsetzung-der-user-stories-us2)
-  	 [Dokumentation wichtiger Code Snippets _US2_](#dokumentation-wichtiger-code-snippets-us2)
+  	+ [Dokumentation wichtiger Code Snippets _US2_](#dokumentation-wichtiger-code-snippets-us2)
   * [Dokumentation Sprint 3](#dokumentation-sprint-3)
   	+ [Taskliste für die Umsetzung der User Stories _US3_](#taskliste-für-die-umsetzung-der-user-stories-us3)
   	+ [Dokumentation wichtiger Code Snippets _US3_](#dokumentation-wichtiger-code-snippets-us3)
