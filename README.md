@@ -18,7 +18,7 @@ Das Projekt wurde durch EyHoCk, felixleitlein, G3r0m3, mzbinden und Flip87 erste
 - [Dokumentation Sprint 1](#dokumentation-sprint-1)
   * [Taskliste für die Umsetzung der User Story](#taskliste-für-die-umsetzung-der-user-story)
   * [Anreicherung der User Stories für die Umsetzung](#anreicherung-der-user-stories-für-die-umsetzung)
-  * [UML Package, Klassen und Sequenzdiagramm](#uml-package,-klassen-und-sequenzdiagramm)
+  * [UML Package, Klassen und Sequenzdiagramm](#uML-package,-Klassen-und-sequenzdiagramm)
   * [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
   * [Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories](#herleitung-der-testfälle-aus-den-azeptanzkriterien-der-user-stories)
 - [Dokumentation Sprint 2](#dokumentation-sprint-2)
