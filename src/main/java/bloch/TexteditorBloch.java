@@ -1,4 +1,5 @@
-package trinat.bloch.editor;
+package bloch;
+
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -29,10 +30,10 @@ import javax.swing.SwingUtilities;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.StyledDocument;
 
-public class Texteditor_Bloch_2$4 {
+public class TexteditorBloch {
 	private JFrame rahmen;
 	private JTextPane editor;
-	private File datei;
+	File datei;
 
 	private JFileChooser chooser = new JFileChooser();
 
@@ -44,7 +45,7 @@ public class Texteditor_Bloch_2$4 {
 
 			public void run() {
 
-				new Texteditor_Bloch_2$4().createAndShowGUI();
+				new TexteditorBloch().createAndShowGUI();
 			}
 		});
 	}
@@ -120,15 +121,20 @@ public class Texteditor_Bloch_2$4 {
 
 	private class NewFileListener implements ActionListener {
 
-		@Override
 		public void actionPerformed(ActionEvent e) {
-
+			// TODO Auto-generated method stub
 			editor.setDocument(getNewDocument());
 			datei = null;
 			setFrameTitleWithExtn("Neu");
+
 		}
 
+
 	}
+
+
+
+
 
 	private class SaveFileListener implements ActionListener {
 
@@ -162,7 +168,7 @@ public class Texteditor_Bloch_2$4 {
 
 			chooser.setMultiSelectionEnabled(true);
 			registerDelAction();
-			
+
 			if (chooser.showSaveDialog(rahmen) == JFileChooser.APPROVE_OPTION) {
 
 				return chooser.getSelectedFile();
@@ -171,10 +177,10 @@ public class Texteditor_Bloch_2$4 {
 			}
 		}
 	}
-	
-	
+
+
 	private void registerDelAction() {
-		
+
 		// Create AbstractAction
 		// It is an implementation of javax.swing.Action
 		AbstractAction a = new AbstractAction() {
@@ -217,10 +223,10 @@ public class Texteditor_Bloch_2$4 {
 	public int askConfirm() {
 		// Ask the user whether he/she wants to confirm deleting
 		// Return the option chosen by the user either YES/NO
-		
+
 		return JOptionPane.showConfirmDialog(chooser, "Möchten Sie diese Datei(en) löschen? ");
 	}
-	
+
 	private class OpenFileListener implements ActionListener {
 
 		@Override
@@ -237,13 +243,13 @@ public class Texteditor_Bloch_2$4 {
 			setFrameTitleWithExtn(datei.getName());
 		}
 
-		
+
 
 		private File chooseFile() {
 
 			chooser.setMultiSelectionEnabled(true);
 			registerDelAction();
-			
+
 			if (chooser.showOpenDialog(rahmen) == JFileChooser.APPROVE_OPTION) {
 
 				return chooser.getSelectedFile();
