@@ -67,7 +67,7 @@ Es soll eine einfaches Programm erstellt werden, mit welchem eine einfache Textv
 * Die Eingabeaufforderung (Konsole) öffnen.
 * java -jar in die Eingabeaufforderung eingeben, gefolgt von dem kopierten Pfad der .jar Datei. Mit Enter bestätigen.
 
-##### Beispiel
+##### Beispiel:
 java -jar C:\Users\Max Mustermann\trinat-bloch-texteditor-master\Ausbaustufe01.jar
 
 #### Erstellen eines Desktop Icon zum Starten des Programms 
